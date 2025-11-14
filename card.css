@@ -1,0 +1,40 @@
+.table th, .table td {
+    vertical-align: middle;
+  }
+
+  .ptable {
+    background-color: #c8b789;
+    color: #333;
+  }
+  .ptable thead {
+    background-color: #ffeeba;
+    color: #000;
+  }
+
+  .product-card {
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+    transition: box-shadow 0.3s ease;
+  }
+  .product-card:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  .product-card img {
+    margin-bottom: 10px;
+  }
+  .btn-danger {
+    background-color: #F53E32;
+    border: none;
+  }
+  .quantity-control {
+    width: 100px;
+  }
+.rednav{
+
+  background: #F53E32;
+}
+
+
