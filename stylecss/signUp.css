@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    background-color: white;
+    border: 1px solid white;
+}
+nav ul{
+    padding: 0;
+    margin-left: 10rem;
+}
+nav ul li:hover a{
+    color: #CBB777;
+}
+nav .icon{
+    margin-left: 2rem;
+}
+footer{
+    margin-top: 10rem;
+}
+@media only screen and (max-width:992px){
+    nav ul{
+        padding: 0;
+        margin-left: 0rem;
+    }    
+}
